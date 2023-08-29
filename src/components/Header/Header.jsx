@@ -1,10 +1,8 @@
 import {HeaderStyle} from './Header.styles.js'
 
-const Header = () => {
+export function Header(){
   return (
     <HeaderStyle>Weather App</HeaderStyle>
   )
 }
-
-export default Header
 

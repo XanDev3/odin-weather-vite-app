@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {FooterWrapper, GithubLink} from './Footer.styles.js'
 
-function Footer(){
+export function Footer(){
     return(
         <FooterWrapper>
             Xander© 2023
@@ -17,5 +17,3 @@ function Footer(){
         </FooterWrapper>
     )
 }
-
-export default Footer

@@ -10,7 +10,7 @@ export const FooterWrapper = styled.footer`
   width: 100%;
   padding: .5rem 0;  
   font-size: 1.2rem;
-  background: var(--purple)
+  background: var(--purple);
 `
 
 export const GithubLink = styled.a`

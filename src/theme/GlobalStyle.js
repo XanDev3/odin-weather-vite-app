@@ -1,6 +1,6 @@
 import * as styled from 'styled-components'
 
-const GlobalStyle = styled.createGlobalStyle`
+export const GlobalStyle = styled.createGlobalStyle`
     /* google fonts were imported in the index.html */
     :root {
         --dark-font-color: black;
@@ -99,4 +99,3 @@ button:focus-visible {
     
 `
 
-export default GlobalStyle
