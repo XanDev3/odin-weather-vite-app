@@ -3,12 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
+  "homepage": "http://xandernesta.github.io/odin-weather-vite-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -32,6 +35,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
     "jsdom": "^22.1.0",
     "vite": "^4.4.5",
     "vite-plugin-babel-macros": "^1.0.6",
