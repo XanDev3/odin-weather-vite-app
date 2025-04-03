@@ -1,7 +1,7 @@
 # Odin-Weather-Vite-App
 
-This is a refactor of my original vanilla JS weather app to use React with Vite, old site can be found here: [old app](https://xandernesta.github.io/odin-weather-app)
-New live version will be found here: [Weather App](https://xandernesta.github.io/odin-weather-vite-app)
+This is a refactor of my original vanilla JS weather app to use React with Vite, old site can be found here: [old app](https://xandev3.github.io/odin-weather-app)
+New live version will be found here: [Weather App](https://xandev3.github.io/odin-weather-vite-app)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
-  "homepage": "http://xandernesta.github.io/odin-weather-vite-app",
+  "homepage": "http://xandev3.github.io/odin-weather-vite-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
